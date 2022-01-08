@@ -31,7 +31,7 @@ SECRET_KEY = "%_l90jo01yqnbm*(%e&uxcx@0l0*(a+9s4sf(bgd74x0w5u_ix"
 DEBUG = "False"
 
 ALLOWED_HOSTS = [".herokuapp.com", "localhost", "127.0.0.1"]
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Application definition
 
